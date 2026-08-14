@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Clean & Clear Glass is a client-side Minecraft mod by lidwinae for cleaner connected glass."
+    />
+    <meta property="og:title" content="Clean & Clear Glass — lidwinae" />
+    <meta
+      property="og:description"
+      content="Cleaner, clearer, and connected vanilla glass for Fabric and NeoForge."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lidwinae.github.io/web/glass.html" />
+    <title>Clean &amp; Clear Glass — lidwinae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <a class="site-name" href="index.html">lidwinae</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-menu>
+        <a href="winaeth.html">Winaeth</a>
+        <a href="glass.html" aria-current="page">Clean &amp; Clear Glass</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="https://github.com/lidwinae" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero hero-project">
+        <!-- Replace this image with a final Clean & Clear Glass hero screenshot. -->
+        <img src="assets/screenshots/placeholder.jpg" alt="Placeholder for the main Clean and Clear Glass screenshot" />
+        <div class="hero-shade"></div>
+        <div class="hero-content page-width">
+          <p class="overline">Available · Fabric and NeoForge</p>
+          <h1>Clean &amp; Clear Glass</h1>
+          <p class="hero-summary">Cleaner, clearer, and connected vanilla glass.</p>
+        </div>
+      </section>
+
+      <nav class="page-nav page-width" aria-label="Clean and Clear Glass page sections">
+        <a href="#overview">Overview</a>
+        <a href="#features">Features</a>
+        <a href="#styles">Styles</a>
+        <a href="#compatibility">Compatibility</a>
+        <a href="#installation">Installation</a>
+        <a href="#screenshots">Screenshots</a>
+      </nav>
+
+      <article class="article-page page-width">
+        <section class="article-intro" id="overview">
+          <p class="overline">Overview</p>
+          <h2>Vanilla glass that responds to the glass beside it.</h2>
+          <div class="article-columns">
+            <p class="lead">
+              Clean &amp; Clear Glass is a client-side visual mod that makes vanilla glass blocks
+              and glass panes look cleaner and visually connected.
+            </p>
+            <div>
+              <p>
+                Matching connected glass hides its internal borders while exposed outer borders
+                remain visible. This creates clearer windows, glass walls, and larger glass
+                structures without adding new blocks or changing gameplay.
+              </p>
+              <p>
+                The mod keeps the original vanilla block and item IDs. It only changes how relevant
+                glass models are rendered on the client.
+              </p>
+            </div>
+          </div>
+          <div class="button-row">
+            <a class="filled-button" href="https://modrinth.com/mod/clean-and-clear-glass" target="_blank" rel="noreferrer">Download on Modrinth</a>
+            <a class="outline-button" href="https://www.curseforge.com/minecraft/mc-mods/clean-and-clear-glass" target="_blank" rel="noreferrer">Download on CurseForge</a>
+            <a class="outline-button" href="https://github.com/lidwinae/clean-and-clear-glass" target="_blank" rel="noreferrer">View source</a>
+          </div>
+        </section>
+
+        <figure class="wide-screenshot">
+          <!-- Replace with a large in-game Clean & Clear Glass screenshot. -->
+          <img src="assets/screenshots/placeholder.jpg" alt="Placeholder for a Clean and Clear Glass showcase" loading="lazy" />
+          <figcaption>Clean &amp; Clear Glass showcase — replace this placeholder later.</figcaption>
+        </figure>
+
+        <section class="article-section" id="features">
+          <p class="overline">Features</p>
+          <h2>One focused visual change.</h2>
+          <div class="text-grid">
+            <article>
+              <h3>Connected blocks</h3>
+              <p>Matching glass blocks hide shared internal faces and keep the exposed outer border.</p>
+            </article>
+            <article>
+              <h3>Connected panes</h3>
+              <p>Glass panes receive clean arms, outer edges, and improved center intersections.</p>
+            </article>
+            <article>
+              <h3>All stained colors</h3>
+              <p>Every vanilla stained glass block and pane color is supported.</p>
+            </article>
+            <article>
+              <h3>Client-side only</h3>
+              <p>The mod does not change game rules and can be used while joining vanilla servers.</p>
+            </article>
+            <article>
+              <h3>No separate CTM mod</h3>
+              <p>The connected rendering is implemented directly by Clean &amp; Clear Glass.</p>
+            </article>
+            <article>
+              <h3>Configurable</h3>
+              <p>The rendering can be turned off and available glass styles can be changed in-game.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="article-section" id="styles">
+          <p class="overline">Appearance</p>
+          <h2>Choose how much surface detail remains visible.</h2>
+          <div class="text-grid three-columns">
+            <article>
+              <h3>Clear regular glass</h3>
+              <p>Keeps the center clear for the cleanest and most open appearance. This is the default regular glass style.</p>
+            </article>
+            <article>
+              <h3>Subtle regular glass</h3>
+              <p>Adds a small center detail when connected glass forms a suitable pattern such as a 2×2 area.</p>
+            </article>
+            <article>
+              <h3>Tinted glass styles</h3>
+              <p>Supported versions offer Subtle, Visible, and Clear options. Subtle is the default.</p>
+            </article>
+          </div>
+          <div class="callout">
+            <p><strong>Open settings:</strong> press <kbd>Alt</kbd> + <kbd>G</kbd>.</p>
+            <p>The shortcut can be changed under Options → Controls → Key Binds. Fabric users can also open settings through Mod Menu when it is installed.</p>
+          </div>
+        </section>
+
+        <div class="two-screenshots">
+          <figure>
+            <!-- Replace with a regular glass comparison screenshot. -->
+            <img src="assets/screenshots/placeholder.jpg" alt="Placeholder for regular glass styles" loading="lazy" />
+            <figcaption>Regular glass styles</figcaption>
+          </figure>
+          <figure>
+            <!-- Replace with a tinted glass comparison screenshot. -->
+            <img src="assets/screenshots/placeholder.jpg" alt="Placeholder for tinted glass styles" loading="lazy" />
+            <figcaption>Tinted glass styles</figcaption>
+          </figure>
+        </div>
+
+        <section class="article-section" id="compatibility">
+          <p class="overline">Versions and compatibility</p>
+          <h2>Download the file matching both the game version and mod loader.</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>Minecraft</th><th>Fabric</th><th>NeoForge</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>26.1+</td><td>Available</td><td>Available</td></tr>
+                <tr><td>1.21.11</td><td>Available</td><td>Available</td></tr>
+                <tr><td>1.21.1</td><td>Available</td><td>Available</td></tr>
+                <tr><td>1.20.1</td><td>Available</td><td>Not available</td></tr>
+                <tr><td>1.16.5</td><td>Available</td><td>Not available</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul class="plain-list">
+            <li>Fabric API is required for Fabric releases.</li>
+            <li>NeoForge releases do not require Fabric API or another rendering API.</li>
+            <li>Mod Menu is optional on Fabric.</li>
+            <li>Sodium and Iris are optional and supported.</li>
+            <li>Indium, Continuity, CTM, and OptiFine are not required.</li>
+          </ul>
+        </section>
+
+        <section class="article-section" id="installation">
+          <p class="overline">Installation</p>
+          <h2>Install it like a normal client-side mod.</h2>
+          <div class="text-grid">
+            <article>
+              <h3>Fabric</h3>
+              <ol class="plain-list ordered">
+                <li>Install Fabric Loader for your Minecraft version.</li>
+                <li>Install Fabric API.</li>
+                <li>Download the matching Fabric file.</li>
+                <li>Put both files inside the <code>mods</code> folder.</li>
+                <li>Launch Minecraft with the Fabric profile.</li>
+              </ol>
+            </article>
+            <article>
+              <h3>NeoForge</h3>
+              <ol class="plain-list ordered">
+                <li>Install NeoForge for your exact Minecraft version.</li>
+                <li>Download the matching NeoForge file.</li>
+                <li>Put the mod file inside the <code>mods</code> folder.</li>
+                <li>Launch Minecraft with the NeoForge profile.</li>
+              </ol>
+            </article>
+          </div>
+          <div class="callout">
+            <p>Fabric and NeoForge files are not interchangeable. Always use the file made for your exact loader and Minecraft version.</p>
+          </div>
+        </section>
+
+        <section class="screenshot-gallery" id="screenshots">
+          <div class="section-title">
+            <p class="overline">Screenshots</p>
+            <h2>In-game gallery</h2>
+          </div>
+          <div class="gallery-grid">
+            <figure>
+              <img src="assets/screenshots/placeholder.jpg" alt="Placeholder Clean and Clear Glass screenshot" loading="lazy" />
+              <figcaption>Replace with a glass screenshot</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/screenshots/placeholder.jpg" alt="Placeholder Clean and Clear Glass screenshot" loading="lazy" />
+              <figcaption>Replace with a glass screenshot</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/screenshots/placeholder.jpg" alt="Placeholder Clean and Clear Glass screenshot" loading="lazy" />
+              <figcaption>Replace with a glass screenshot</figcaption>
+            </figure>
+          </div>
+        </section>
+      </article>
+
+      <section class="page-end">
+        <div class="page-width">
+          <h2>Clean, clear, and connected—without changing vanilla gameplay.</h2>
+          <a class="text-button" href="index.html">Back to all projects</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <p>© <span data-year>2026</span> lidwinae</p>
+      <p>Not an official Minecraft product. Not associated with Mojang or Microsoft.</p>
+    </footer>
+  </body>
+</html>

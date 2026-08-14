@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Minecraft mods, resource packs, and project documentation by lidwinae."
+    />
+    <meta property="og:title" content="lidwinae — Minecraft projects" />
+    <meta
+      property="og:description"
+      content="Winaeth, Clean & Clear Glass, and future Minecraft projects by lidwinae."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lidwinae.github.io/web/" />
+    <title>lidwinae — Minecraft projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <a class="site-name" href="index.html">lidwinae</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-menu>
+        <a href="winaeth.html">Winaeth</a>
+        <a href="glass.html">Clean &amp; Clear Glass</a>
+        <a href="#projects">Projects</a>
+        <a href="https://github.com/lidwinae" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <img src="assets/screenshots/placeholder.jpg" alt="A Minecraft birch forest at sunset" />
+        <div class="hero-shade"></div>
+        <div class="hero-content page-width">
+          <p class="overline">Minecraft projects by lidwinae</p>
+          <h1>Mods, resource packs,<br />and the ideas behind them.</h1>
+        </div>
+      </section>
+
+      <section class="intro page-width">
+        <h2>A simple home for my Minecraft projects.</h2>
+        <div>
+          <p>
+            This site contains project explanations, development notes, screenshots, and other
+            information that needs more space than a standard download page.
+          </p>
+          <p>
+            Published files remain available through CurseForge and Modrinth. Source code and
+            development history are available through GitHub when a project repository is public.
+          </p>
+        </div>
+      </section>
+
+      <section class="projects page-width" id="projects">
+        <div class="section-title">
+          <p class="overline">Projects</p>
+          <h2>Current work</h2>
+        </div>
+
+        <article class="project-row">
+          <div class="screenshot-frame">
+            <!-- Replace this src with your final Winaeth screenshot later. -->
+            <img src="assets/screenshots/placeholder.jpg" alt="Placeholder for a Winaeth screenshot" loading="lazy" />
+            <span class="placeholder-label">Winaeth screenshot</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-status">In development</p>
+            <h3>Winaeth</h3>
+            <p>
+              A story-led dimension with its own island, characters, weapons, discoveries, and
+              endings. The journey begins in Lydrosilva and eventually leads beyond the broken
+              Asterfall Bridge to Castle Velrathia.
+            </p>
+            <a class="text-button" href="winaeth.html">Read about Winaeth</a>
+          </div>
+        </article>
+
+        <article class="project-row project-row-reverse">
+          <div class="screenshot-frame">
+            <!-- Replace this src with your final Clean & Clear Glass screenshot later. -->
+            <img src="assets/screenshots/placeholder.jpg" alt="Placeholder for a Clean and Clear Glass screenshot" loading="lazy" />
+            <span class="placeholder-label">Clean &amp; Clear Glass screenshot</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-status project-status-live">Available</p>
+            <h3>Clean &amp; Clear Glass</h3>
+            <p>
+              A client-side visual mod that makes vanilla glass blocks and panes cleaner, clearer,
+              and connected while keeping the original blocks and gameplay unchanged.
+            </p>
+            <a class="text-button" href="glass.html">View project details</a>
+          </div>
+        </article>
+
+        <article class="future-project">
+          <p class="overline">Future projects</p>
+          <h3>More can be added here later.</h3>
+          <p>
+            The same simple page structure can be reused for another mod, resource pack, or
+            experiment without redesigning the whole website.
+          </p>
+        </article>
+      </section>
+
+      <section class="links-section">
+        <div class="page-width links-grid">
+          <div>
+            <p class="overline">Downloads</p>
+            <h2>Get released projects from their official pages.</h2>
+          </div>
+          <div class="large-links">
+            <a href="https://modrinth.com/mod/clean-and-clear-glass" target="_blank" rel="noreferrer">Modrinth <span>↗</span></a>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/clean-and-clear-glass" target="_blank" rel="noreferrer">CurseForge <span>↗</span></a>
+            <a href="https://github.com/lidwinae" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer page-width">
+      <p>© <span data-year>2026</span> lidwinae</p>
+      <p>Not an official Minecraft product. Not associated with Mojang or Microsoft.</p>
+    </footer>
+  </body>
+</html>
